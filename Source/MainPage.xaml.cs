@@ -50,6 +50,7 @@ namespace BracketToMe
 
 				if (Data.Teams.Count > 0)
 				{
+					ApplicationView.GetForCurrentView().Title = file.DisplayName;
 					Results.Populate(Data);
 					SimulateTournament();
 				}

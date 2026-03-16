@@ -52,10 +52,10 @@
             <Slider x:Name="ConferenceWeightSlider" Canvas.Left="185" Canvas.Top="482" Width="200" Value="{x:Bind Mode=TwoWay, Path=local:Weights.ConferenceWeight}" Minimum="0" Maximum="1" SmallChange="0.05" LargeChange="0.05" StepFrequency="0.05" ValueChanged="SliderValueChanged"/>
             <TextBox Canvas.Left="410" Canvas.Top="482" Text="{x:Bind Converter={StaticResource WeightFormatConverter}, Mode=TwoWay, Path=ConferenceWeightSlider.Value}" Width="75"/>
             
-			<TextBlock Canvas.Left="10" Canvas.Top="517" Text="For the record factor, how much should vs top 25 teams be weighted?" Foreground="Gray"/>
-            <TextBlock Canvas.Left="10" Canvas.Top="547" Text="Vs Top 25 Teams Weight" Width="175" Height="20" Foreground="Gray"/>
-            <Slider x:Name="VsTop25WeightSlider" Canvas.Left="185" Canvas.Top="542" Width="200" Value="{x:Bind Mode=TwoWay, Path=local:Weights.VsTop25Weight}" Minimum="0" Maximum="1" SmallChange="0.05" LargeChange="0.05" StepFrequency="0.05" ValueChanged="SliderValueChanged" IsEnabled="False"/>
-            <TextBox Canvas.Left="410" Canvas.Top="542" Text="{x:Bind Converter={StaticResource WeightFormatConverter}, Mode=TwoWay, Path=VsTop25WeightSlider.Value}" Width="75" IsEnabled="False"/>
+			<TextBlock Canvas.Left="10" Canvas.Top="517" Text="For the record factor, how much should vs top 25 teams be weighted?"/>
+            <TextBlock Canvas.Left="10" Canvas.Top="547" Text="Vs Top 25 Teams Weight" Width="175" Height="20"/>
+            <Slider x:Name="VsTop25WeightSlider" Canvas.Left="185" Canvas.Top="542" Width="200" Value="{x:Bind Mode=TwoWay, Path=local:Weights.VsTop25Weight}" Minimum="0" Maximum="1" SmallChange="0.05" LargeChange="0.05" StepFrequency="0.05" ValueChanged="SliderValueChanged"/>
+            <TextBox Canvas.Left="410" Canvas.Top="542" Text="{x:Bind Converter={StaticResource WeightFormatConverter}, Mode=TwoWay, Path=VsTop25WeightSlider.Value}" Width="75"/>
             
 			<TextBlock Canvas.Left="10" Canvas.Top="577" Text="For the record factor, how much should the last 10 games be weighted?"/>
             <TextBlock Canvas.Left="10" Canvas.Top="607" Text="Last 10 Games Weight" Width="175" Height="20"/>

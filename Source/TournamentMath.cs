@@ -15,9 +15,9 @@ namespace BracketToMe
 		public static float BpiDefWeight = 0.6f;
 
 		// For the record factor, how much should each be weighted?
-		public static float RecordWeight = 0.4f;
-		public static float ConferenceWeight = 0.4f;
-		public static float VsTop25Weight = 0.0f;
+		public static float RecordWeight = 0.7f;
+		public static float ConferenceWeight = 0.0f;
+		public static float VsTop25Weight = 0.1f;
 		public static float Last10Weight = 0.2f;
 		public static float SosRankWeight = 0.0f;
 		public static float SorRankWeight = 0.0f;
@@ -30,7 +30,7 @@ namespace BracketToMe
 		// How many attempts of each type per game should be considered?
 		// NOTE: NCAA standard has been 50% of all points from field goals, 30% three-pointers,
 		// and 20% free throws. These values give roughly that approximation.
-		public static int FieldGoalAttempts = 37;
+		public static int FieldGoalAttempts = 35;
 		public static int ThreePointAttempts = 22;
 		public static int FreeThrowAttempts = 20;
 
