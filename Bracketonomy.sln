@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketToMe", "BracketToMe.csproj", "{66DB8F3B-4984-4A56-A867-3AD75D46E644}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bracketonomy", "Bracketonomy.csproj", "{66DB8F3B-4984-4A56-A867-3AD75D46E644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

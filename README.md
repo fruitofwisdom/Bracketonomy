@@ -1,4 +1,4 @@
-# BracketToMe
+# Bracketonomy
 An application to automatically generate NCAA brackets from team data.
 
 Team data is stored in CSV format with a column each representing:

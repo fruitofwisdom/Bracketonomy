@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Bracket To Me")]
+[assembly: AssemblyTitle("Bracketonomy")]
 [assembly: AssemblyDescription("An application to automatically generate NCAA brackets from team data.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("https://github.com/fruitofwisdom")]
-[assembly: AssemblyProduct("BracketToMe")]
+[assembly: AssemblyProduct("Bracketonomy")]
 [assembly: AssemblyCopyright("Copyright © 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -6,7 +6,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Navigation;
 
-namespace BracketToMe
+namespace Bracketonomy
 {
 	// This page allows for the adjusting of weights by binding each slider to a public field in
 	// the static Weights class. As the slider values are changed, the tournament is re-simulated.

@@ -9,7 +9,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Hosting;
 
-namespace BracketToMe
+namespace Bracketonomy
 {
 	// The main page for tournament results and interacting with the simulation.
 	public sealed partial class MainPage : Page

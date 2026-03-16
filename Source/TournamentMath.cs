@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BracketToMe
+namespace Bracketonomy
 {
 	// TODO: Allow for the saving and loading of weights?
 	public static class Weights

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BracketToMe
+namespace Bracketonomy
 {
 	// A Result is one 
 	public struct Result

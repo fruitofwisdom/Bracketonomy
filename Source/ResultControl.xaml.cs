@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Controls;
 // TextBox, but behave much more like a fancy TextBlock. The User Control item template is
 // documented at https://go.microsoft.com/fwlink/?LinkId=234236
 
-namespace BracketToMe
+namespace Bracketonomy
 {
 	public sealed partial class ResultControl : UserControl
 	{

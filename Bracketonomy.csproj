@@ -7,8 +7,8 @@
     <ProjectGuid>{66DB8F3B-4984-4A56-A867-3AD75D46E644}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BracketToMe</RootNamespace>
-    <AssemblyName>BracketToMe</AssemblyName>
+    <RootNamespace>Bracketonomy</RootNamespace>
+    <AssemblyName>Bracketonomy</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22621.0</TargetPlatformVersion>

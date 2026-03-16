@@ -1,9 +1,9 @@
 ﻿using Windows.ApplicationModel;
 using Windows.UI.Xaml.Controls;
 
-namespace BracketToMe
+namespace Bracketonomy
 {
-	// The About page displays various pieces of information about Bracket To Me.
+	// The About page displays various pieces of information about Bracketonomy.
 	public sealed partial class AboutPage : Page
 	{
 		public AboutPage()
